@@ -1,16 +1,14 @@
 {
     "name": "klzb/digital-ocean-api",
-    "type": "library",
-    "description": "Digital Ocean API",
-    "keywords": ["do","digitalocean","digital","ocean","api"],
-    "homepage": "http://www.klaasbrands.nl",
-    "license": "MIT",
     "authors": [
         {
             "name": "Klaas Brands",
-            "email": "kbrandsurk@icloud.com",
-            "homepage": "http://www.klaasbrands.nl",
-            "role": "Developer"
+            "email": "kbrandsurk@icloud.com"
         }
     ],
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.2"
+    }
 }
