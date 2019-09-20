@@ -15,5 +15,7 @@
         "psr-4": {
             "DigitalOcean\\": "src/DigitalOcean/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
