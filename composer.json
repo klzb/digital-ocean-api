@@ -16,6 +16,6 @@
             "DigitalOcean\\": "src/DigitalOcean/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
