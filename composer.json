@@ -10,5 +10,10 @@
         "ext-json": "*",
         "php": ">=7.1.0",
         "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalOcean\\": "src/DigitalOcean/"
+        }
     }
 }

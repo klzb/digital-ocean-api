@@ -1,11 +1,11 @@
 <?php
 
-namespace Snelstart;
+namespace DigitalOcean;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 
-class Snelstart
+class DigitalOcean
 {
     protected $path = 'https://api.digitalocean.com/v2/';
     protected $apiKey;
